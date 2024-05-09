@@ -1,0 +1,75 @@
+body {
+  background: radial-gradient(rgb(50, 169, 216), aliceblue);
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#packageOptions {
+  color: rgb(0, 0, 0);
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  height: 30px;
+  box-shadow: #055063 1px 1px 15px;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  font-family: cursive;
+  font-size: 50px;
+  margin-bottom: 40px;
+  transition: all 0.42s;
+  cursor: pointer;
+  margin-top: 40px;
+  text-shadow: #055063 1px 1px 15px;
+}
+
+h6 {
+  color: rgb(0, 0, 0);
+  font-family: cursive;
+  font-size: 20px;
+  margin-top: 140px;
+  transition: all 0.42s;
+  cursor: pointer;
+  text-shadow: #055063 1px 1px 15px;
+}
+
+#subscriptionButton {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  margin-top: 20px;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  height: 30px;
+  width: 140px;
+  box-shadow: #055063 1px 1px 15px;
+  transition: all 0.42s;
+}
+
+#subscriptionButton:hover{
+    color: black;
+    border: 2px solid #0983a1;
+    background-color: #0983a1;
+    box-shadow: #000000 1px 1px 15px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.5em;
+  }
+
+  #subscriptionButton {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+}
